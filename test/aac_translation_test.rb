@@ -15,6 +15,13 @@ class AacTranslationTest < ActiveSupport::TestCase
 
   test "Return value from fixture" do
     translation_text = translation_texts(:main_title)
-    assert_equal translation_text.text, _('main.title')
+    
+    assert_equal translation_text.text, _(translation_text.translation_key.key)
+  end
+
+  test "Sanitizes HTML" do
+    translation_text = translation_texts(:html_in_title)
+
+    assert_equal "My title2", strip_(translation_text.translation_key.key)
   end
 end

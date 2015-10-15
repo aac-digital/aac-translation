@@ -1,2 +1,5 @@
 main_title:
   key: main.title
+
+html_in_title:
+  key: html.title

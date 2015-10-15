@@ -2,3 +2,8 @@ main_title:
   locale: en
   text: My title
   translation_key: main_title
+
+html_in_title:
+  locale: en
+  text: <strong>My title</strong>2
+  translation_key: html_in_title
