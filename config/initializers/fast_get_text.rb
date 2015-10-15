@@ -6,6 +6,8 @@ FastGettext::TranslationRepository::Db.require_models #load and include default 
 FastGettext.available_locales = ['en']
 FastGettext.add_text_domain('app', :type => :db, :model => TranslationKey)
 
+include FastGettext::Translation
+
 module FastGettext::Translation
   def strip_(key, &block)
     translation = FastGettext.cached_find(key) or block ? block.call : key
