@@ -8,7 +8,7 @@ PATH
   remote: .
   specs:
     aac_translation (0.0.1)
-      fast_gettext
+      fast_gettext (~> 1.0)
       protected_attributes
       rails (~> 4.0)
 
@@ -121,3 +121,6 @@ DEPENDENCIES
   fast_gettext!
   protected_attributes
   sqlite3
+
+BUNDLED WITH
+   1.10.6

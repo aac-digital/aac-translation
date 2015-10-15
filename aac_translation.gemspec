@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0"
-  s.add_dependency "fast_gettext"
+  s.add_dependency "fast_gettext", "~> 1.0"
   s.add_dependency 'protected_attributes'
 
   s.add_development_dependency "sqlite3"
