@@ -119,7 +119,6 @@ DEPENDENCIES
   database_cleaner
   factory_girl
   fast_gettext!
-  protected_attributes
   sqlite3
 
 BUNDLED WITH
