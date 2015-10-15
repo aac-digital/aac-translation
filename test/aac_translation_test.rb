@@ -14,6 +14,7 @@ class AacTranslationTest < ActiveSupport::TestCase
   end
 
   test "Return value from fixture" do
-    assert_equal "My title", _('main.title')
+    translation_text = translation_texts(:main_title)
+    assert_equal translation_text.text, _('main.title')
   end
 end
