@@ -7,8 +7,8 @@ require "aac_translation/version"
 Gem::Specification.new do |s|
   s.name        = "aac_translation"
   s.version     = AacTranslation::VERSION
-  s.authors     = ["Adam Haris"]
-  s.email       = ["iamadamharis@gmail.com"]
+  s.authors     = ["Adam Haris", "Peter Toth"]
+  s.email       = ["iamadamharis@gmail.com", "tothpeter08@gmail.com"]
   s.homepage    = "http://aac.digital"
   s.summary     = "Gem is for providing db based transitions"
   s.description = "Gem is for providing db based transitions"
