@@ -14,6 +14,6 @@ class AacTranslationTest < ActiveSupport::TestCase
   end
 
   test "Return value from fixture" do
-    assert_equal "main.lorem.ipsum", _('main.title')
+    assert_equal "My title", _('main.title')
   end
 end
