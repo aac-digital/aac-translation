@@ -1,11 +1,11 @@
 require 'test_helper'
 
 class AacTranslationTest < ActiveSupport::TestCase
-  before :each do
+  def setup
     DatabaseCleaner.start
   end
 
-  after :each do
+  def teardown
     DatabaseCleaner.clean
   end
 
