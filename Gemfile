@@ -13,5 +13,5 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'fast_gettext', github: "aac-digital/fast_gettext"
+gem 'fast_gettext', github: "grosser/fast_gettext"
 gem 'protected_attributes', require: false

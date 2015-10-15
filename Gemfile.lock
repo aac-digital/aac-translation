@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/aac-digital/fast_gettext.git
-  revision: 2a7e9e02e5b81a22cc1796896599522c261988bd
+  remote: git://github.com/grosser/fast_gettext.git
+  revision: f766a34cea81196b8ecda55ad36ea351db681dd2
   specs:
-    fast_gettext (0.9.2)
+    fast_gettext (1.0.0)
 
 PATH
   remote: .
@@ -121,6 +121,3 @@ DEPENDENCIES
   fast_gettext!
   protected_attributes
   sqlite3
-
-BUNDLED WITH
-   1.10.6
