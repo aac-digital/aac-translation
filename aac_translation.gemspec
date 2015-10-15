@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Adam Haris", "Peter Toth"]
   s.email       = ["iamadamharis@gmail.com", "tothpeter08@gmail.com"]
   s.homepage    = "http://aac.digital"
-  s.summary     = "Gem is for providing db based transitions"
-  s.description = "Gem is for providing db based transitions"
+  s.summary     = "Simple Rails engine to manage your translations in a db."
+  s.description = "Simple Rails engine to manage your translations in a db."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
